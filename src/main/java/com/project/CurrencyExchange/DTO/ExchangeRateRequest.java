@@ -1,5 +1,11 @@
 package com.project.CurrencyExchange.DTO;
 
+
+/**
+ * Dto Of Exchange Rate Request
+ * @Author: @RahulBudhiraja
+ */
+
 public class ExchangeRateRequest {
     private String baseCurrency;
     private String targetCurrencies;
