@@ -1,6 +1,12 @@
 package com.project.CurrencyExchange.Utils;
 
 public final class Constants {
+
+    /**
+     * Class to store All Constants Used in this project
+     * @Author: @RahulBudhiraja
+     */
+
     private Constants() {}
     // === API URLs ===
     public static final String FRANKFURTER_API_URL = "https://api.frankfurter.app/latest";
