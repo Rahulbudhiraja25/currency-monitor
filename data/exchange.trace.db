@@ -206,3 +206,27 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: D:/Work/Currency
 	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
 	... 57 more
+2025-06-20 23:08:46.741979+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "U&'{""USD To Australian Dollar"":1.5418,""USD To Bulgarian Lev"":1.6985,""USD To Braz... (926)"; SQL statement:
+insert into exchange_rate_logs (base_currency,rates,timestamp,id) values (?,?,?,default) [22001-232]
+2025-06-20 23:09:00.134082+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "U&'{""USD To Australian Dollar"":1.5418,""USD To Bulgarian Lev"":1.6985,""USD To Braz... (926)"; SQL statement:
+insert into exchange_rate_logs (base_currency,rates,timestamp,id) values (?,?,?,default) [22001-232]
+2025-06-20 23:10:30.584510+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "U&'{""USD To Australian Dollar"":1.5418,""USD To Bulgarian Lev"":1.6985,""USD To Braz... (926)"; SQL statement:
+insert into exchange_rate_logs (base_currency,rates,timestamp,id) values (?,?,?,default) [22001-232]
+2025-06-20 23:12:15.257140+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP [*]EXCHANGE_RATE_LOGS"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, MATERIALIZED, VIEW, ROLE, ALIAS, SCHEMA, ALL OBJECTS, DOMAIN, TYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP EXCHANGE_RATE_LOGS [42001-232]
+2025-06-20 23:13:15.629977+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "U&'{""USD To Australian Dollar"":1.5418,""USD To Bulgarian Lev"":1.6985,""USD To Braz... (926)"; SQL statement:
+insert into exchange_rate_logs (base_currency,rates,timestamp,id) values (?,?,?,default) [22001-232]
+2025-06-20 23:13:30.170691+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "U&'{""USD To Australian Dollar"":1.5418,""USD To Bulgarian Lev"":1.6985,""USD To Braz... (926)"; SQL statement:
+insert into exchange_rate_logs (base_currency,rates,timestamp,id) values (?,?,?,default) [22001-232]
+2025-06-20 23:13:45.222445+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "U&'{""USD To Australian Dollar"":1.5418,""USD To Bulgarian Lev"":1.6985,""USD To Braz... (926)"; SQL statement:
+insert into exchange_rate_logs (base_currency,rates,timestamp,id) values (?,?,?,default) [22001-232]
+2025-06-20 23:14:00.280443+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "U&'{""USD To Australian Dollar"":1.5418,""USD To Bulgarian Lev"":1.6985,""USD To Braz... (926)"; SQL statement:
+insert into exchange_rate_logs (base_currency,rates,timestamp,id) values (?,?,?,default) [22001-232]
