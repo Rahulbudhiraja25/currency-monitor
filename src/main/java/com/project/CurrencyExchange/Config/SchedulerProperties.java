@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class SchedulerProperties {
 
     private final boolean enabled = true;
-    private final String cron = "*/15 * * * * *"; // every 15 seconds
+    private final String cron ="0 0 * * * *"; // after every 1 hour
     private final String baseCurrency = "USD";
 
     public boolean isEnabled() {

@@ -230,3 +230,18 @@ insert into exchange_rate_logs (base_currency,rates,timestamp,id) values (?,?,?,
 2025-06-20 23:14:00.280443+05:30 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "U&'{""USD To Australian Dollar"":1.5418,""USD To Bulgarian Lev"":1.6985,""USD To Braz... (926)"; SQL statement:
 insert into exchange_rate_logs (base_currency,rates,timestamp,id) values (?,?,?,default) [22001-232]
+2025-06-21 13:40:54.570852+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "SPACE(926 /* table: -3 id: 248 */) (926)"; SQL statement:
+INSERT INTO "PUBLIC"."EXCHANGE_RATE_LOGS_COPY_3_0"("ID", "BASE_CURRENCY", "RATES", "TIMESTAMP") OVERRIDING SYSTEM VALUE SELECT "ID", "BASE_CURRENCY", "RATES", "TIMESTAMP" FROM "PUBLIC"."EXCHANGE_RATE_LOGS" [22001-232]
+2025-06-21 13:44:11.824306+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "SPACE(926 /* table: -3 id: 419 */) (926)"; SQL statement:
+INSERT INTO "PUBLIC"."EXCHANGE_RATE_LOGS_COPY_3_0"("ID", "BASE_CURRENCY", "RATES", "TIMESTAMP") OVERRIDING SYSTEM VALUE SELECT "ID", "BASE_CURRENCY", "RATES", "TIMESTAMP" FROM "PUBLIC"."EXCHANGE_RATE_LOGS" [22001-232]
+2025-06-21 13:45:28.500780+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "SPACE(926 /* table: -3 id: 672 */) (926)"; SQL statement:
+INSERT INTO "PUBLIC"."EXCHANGE_RATE_LOGS_COPY_3_0"("ID", "BASE_CURRENCY", "RATES", "TIMESTAMP") OVERRIDING SYSTEM VALUE SELECT "ID", "BASE_CURRENCY", "RATES", "TIMESTAMP" FROM "PUBLIC"."EXCHANGE_RATE_LOGS" [22001-232]
+2025-06-21 13:52:20.689287+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "SPACE(926 /* table: -3 id: 1767 */) (926)"; SQL statement:
+INSERT INTO "PUBLIC"."EXCHANGE_RATE_LOGS_COPY_3_0"("ID", "BASE_CURRENCY", "RATES", "TIMESTAMP") OVERRIDING SYSTEM VALUE SELECT "ID", "BASE_CURRENCY", "RATES", "TIMESTAMP" FROM "PUBLIC"."EXCHANGE_RATE_LOGS" [22001-232]
+2025-06-21 13:59:28.697630+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RATES CHARACTER VARYING(255)": "SPACE(926 /* table: -3 id: 1842 */) (926)"; SQL statement:
+INSERT INTO "PUBLIC"."EXCHANGE_RATE_LOGS_COPY_3_0"("ID", "BASE_CURRENCY", "RATES", "TIMESTAMP") OVERRIDING SYSTEM VALUE SELECT "ID", "BASE_CURRENCY", "RATES", "TIMESTAMP" FROM "PUBLIC"."EXCHANGE_RATE_LOGS" [22001-232]
