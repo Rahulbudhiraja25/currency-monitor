@@ -2,8 +2,6 @@ package com.project.CurrencyExchange.DTO;
 
 import com.project.CurrencyExchange.Utils.JsonToMapConverter;
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -28,9 +26,16 @@ public class ExchangeRateLogEntity {
     public String getBaseCurrency() {
         return baseCurrency;
     }
-
+    @Transient
+    private String jsonView;
     public void setBaseCurrency(String baseCurrency) {
         this.baseCurrency = baseCurrency;
+    }
+    public String getJsonView() {
+        return jsonView;
+    }
+    public void setJsonView(String jsonView) {
+        this.jsonView = jsonView;
     }
 
     @Column(columnDefinition = "CLOB")
@@ -57,5 +62,4 @@ public class ExchangeRateLogEntity {
 
     private LocalDateTime timestamp;
 
-    // Getters and Setters
 }
