@@ -25,4 +25,9 @@ public final class Constants {
 
     // === Application Meta ===
     public static final String APPLICATION_NAME = "CurrencyExchange";
+
+    public static final String LOCALHOST ="http://localhost:8080";
+
+    public static final String PROD ="https://rahulbudhiraja.diy/";
+
 }
